@@ -2,8 +2,10 @@ header {
   padding-top: 100px;
 }
 
-.logo{
-    width: 150px;
+.logo1{
+    width: 143px;
+    margin: 0 auto;
+    
 }
 
 
@@ -14,6 +16,15 @@ header {
 
 .box {
   border: 1px solid #ccc;
+}
+
+.box5{
+    border: 1px solid #ccc;
+    font-size: 1.736em; 
+    text-align: center;
+    font-family: Pacifico;
+    text-shadow: 5px 8px 5px rgb(255, 0, 34);
+
 }
 
 .row{
