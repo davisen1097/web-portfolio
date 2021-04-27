@@ -21,8 +21,17 @@ header {
   border: 1px solid #ccc;
 }
 
+.background{
+    
+    
+    
+    background-color: #d6b9b8;
+
+}
+
+
 .box5{
-    border: 1px transparent #ccc;
+    border: 1px transparent rgb(172, 99, 99);
     color: rgb(168, 170, 16);
     font-size: 1.836em; 
     text-align: center;
