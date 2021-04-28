@@ -13,7 +13,8 @@ header {
 }
 
 .coverfoto{
-
+    border: 8px rgb(253, 212, 97);
+    border-style: groove;
     display: block;
     margin-left: auto;
     margin-right: auto;
