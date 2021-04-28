@@ -31,18 +31,24 @@ header {
 
 
 .box5{
-    border: 1px transparent rgb(172, 99, 99);
+    border: 1px solid rgb(172, 99, 99);
     color: rgb(168, 170, 16);
     font-size: 1.836em; 
     text-align: center;
     font-family: Lucida Handwriting, monospace;
     text-shadow: 5px 8px 5px rgb(219, 189, 19);
     
+}
+.row2{
 
-
-
+    display: flex;
 }
 
+.col2{
+
+        flex-grow: 1;
+
+}
 .row{
 
     display: flex;
