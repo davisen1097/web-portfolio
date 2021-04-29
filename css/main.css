@@ -71,7 +71,18 @@ header {
 
 .descriptionbox{
     font-family: Lucida Handwriting, monospace;
-    font-size: 0.7em;
+    font-size: 1.0em;
+    padding-top: 5px;
+    padding-left: 20px;
+
+}
+
+.titledescription{
+    font-family: Lucida Handwriting, monospace;
+    font-size: 2.0em;
+    text-align: center;
+    padding-top: 20px;
+
 }
 
 .row {
@@ -83,7 +94,7 @@ header {
   flex-grow: 1;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 1000px) {
   .row {
     flex-direction: row;
   }
