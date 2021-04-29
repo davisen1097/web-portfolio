@@ -52,15 +52,13 @@ header {
 }
 
 .descriptionbox {
-    border: 1px solid rgb(172, 99, 99);
-    max-width:100%;
-    max-height:100%;
+  border: 1px solid rgb(172, 99, 99);
 
 }
 
-.descriptionimage{
-    border: 8px rgb(253, 212, 97);
-    border-style: groove;
+.descriptionimage {
+  border: 8px rgb(253, 212, 97);
+  border-style: groove;
 
 }
 
@@ -103,7 +101,5 @@ header {
 }
 
 .col-2-3 {
-  flex-grow: 2;
-
-  
+  flex-grow: 50;
 }
