@@ -51,17 +51,6 @@ header {
   text-shadow: 5px 8px 5px rgb(255, 102, 0);
 }
 
-.descriptionbox {
-  border: 1px solid rgb(172, 99, 99);
-
-}
-
-.descriptionimage {
-  border: 8px rgb(253, 212, 97);
-  border-style: groove;
-
-}
-
 .tipik {
   border: 8px rgb(253, 212, 97);
   border-style: groove;
@@ -97,9 +86,11 @@ header {
 
 .col-1-3 {
   flex-grow: 1;
+  border: 8px rgb(253, 212, 97);
+  border-style: groove;
 
 }
 
 .col-2-3 {
-  flex-grow: 50;
+  flex-grow: 2;
 }
