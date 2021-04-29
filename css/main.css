@@ -1,6 +1,13 @@
 header {
   padding-top: 10px;
 }
+.background {
+  background-color: #032a6d;
+}
+
+.box {
+  border: 1px solid rgb(121, 66, 30);
+}
 
 .logo1 {
   width: 190px;
@@ -30,20 +37,25 @@ header {
 
 .Services {
   text-align: center;
-  font-family: Freckle Face, monospace;
+  color: rgb(226, 214, 144);
+  text-shadow: 5px 8px 5px rgb(224, 171, 23);
+  font-family: "New Tegomin", monospace;
   font-size: 1.836em;
 }
 
-.container {
+.servicesname {
+  text-align: center;
+  font-family: Lucida Handwriting, monospace;
+  font-size: 0.7em;
+  color: rgb(240, 159, 112);
+  text-shadow: 5px 8px 5px rgb(255, 102, 0);
 }
 
-.box {
-  border: 1px solid rgb(121, 66, 30);
-}
+.descriptionbox {
+    border: 1px solid rgb(172, 99, 99);
+    max-width:100%;
+    max-height:100%;
 
-.background {
-  background-color: #032a6d;
-  
 }
 
 .tipik {
@@ -84,5 +96,6 @@ header {
 }
 
 .col-2-3 {
-  flex-grow: 2;
+  flex-grow: 3;
+  flex-direction: row;
 }
