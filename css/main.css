@@ -29,16 +29,16 @@ header {
 }
 
 .background{  
-    background-color: #8eace4;
+    background-color: #a5b6d4;
 }
 
 .logoname{
     border: 1px solid rgb(172, 99, 99);
-    color: rgb(168, 170, 16);
+    color: rgb(219, 189, 19);
     font-size: 1.836em; 
     text-align: center;
     font-family: Lucida Handwriting, monospace;
-    text-shadow: 5px 8px 5px rgb(219, 189, 19);
+    text-shadow: 5px 8px 5px rgb(144, 158, 15);
     
 }
 
