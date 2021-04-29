@@ -69,6 +69,11 @@ header {
   width: max-content;
 }
 
+.descriptionbox{
+    font-family: Lucida Handwriting, monospace;
+    font-size: 0.7em;
+}
+
 .row {
   display: flex;
   flex-direction: column;
@@ -89,8 +94,11 @@ header {
   border: 8px rgb(253, 212, 97);
   border-style: groove;
 
+  text-align: center;
+  
 }
 
 .col-2-3 {
-  flex-grow: 2;
+  flex-grow: 5;
+
 }
