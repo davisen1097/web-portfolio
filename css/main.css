@@ -86,6 +86,11 @@ header {
 
 }
 
+.advertiselogo{
+  text-align: right;
+
+}
+
 .row {
   display: flex;
   flex-direction: column;
