@@ -28,7 +28,7 @@ header {
 
 .coverfoto {
   text-align: center;
-  border-image: url("images/cover.jpg") ;
+  border-image: url("images/cover.jpg");
   border-color: #faf600;
   border-style: groove;
   border-width: 25px;
@@ -36,7 +36,6 @@ header {
   width: 80%;
 
   margin: 0 auto;
-
 }
 
 .Services {
