@@ -88,7 +88,7 @@ header {
   color: rgb(255, 195, 117);
   font-size: 0.83em;
   padding-top: 5px;
-  padding-left: 30px;
+  padding-left: 80px;
   padding-right: 40px;
 }
 
@@ -166,7 +166,7 @@ header {
   flex-grow: 1;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 768px) {
   .row {
     flex-direction: row;
   }
@@ -179,11 +179,11 @@ header {
   border-style: groove;
   border-width: 25px;
   display: block;
-  width: 500;
   height: 100%;
   margin: 0 auto;
 }
 
 .col-2-3 {
-  flex-grow: 5;
+  flex-grow: 2;
+
 }
