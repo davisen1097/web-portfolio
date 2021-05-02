@@ -120,6 +120,18 @@ header {
   padding-top: 20px;
 }
 
+.quotationform{
+  border: 15px rgb(253, 212, 97);
+  border-style: groove;
+  font-family: "New Tegomin", monospace;
+  color: rgb(255, 195, 117);
+  font-size: 1.50em;
+  text-align: left;
+  padding-left: 30px;
+
+
+}
+
 .contactinfo{
 
   font-family: "New Tegomin", monospace;

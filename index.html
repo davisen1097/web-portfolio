@@ -6,6 +6,11 @@
       src="https://kit.fontawesome.com/4a07d7fe3d.js"
       crossorigin="anonymous"
     ></script>
+    <script>   
+      $(function() {
+           $( "#calendar" ).datepicker();   
+      }); 
+  </script>
   </head>
 
   <div class="background">
@@ -230,6 +235,35 @@
 
         <div class="Quotation">
           <p>Online Quotation</p>
+        </div>
+
+        <div class = "quotationform">
+
+
+          <p>Name: &nbsp <input type="text" placeholder="Enter full name" /></p>
+          <p>Email: &nbsp <input type="text"  /></p>
+          <p>Contact No: &nbsp <input type="text" placeholder="Mobile/Fixed Telephone" /></p>
+          <p>Date of event: &nbsp <input type="text" placeholder="DD/MM/YYYY" /></p>
+          <p>Event location: &nbsp <input type="text" placeholder="Enter full address" /></p>
+          <p>Duration of entertainment: &nbsp <input type="text" placeholder="No. of hours" /></p>
+          
+
+          
+          
+          <p>Select required service: &nbsp&nbsp
+          
+          <input type="checkbox" name=chksport[1]> Sega Tipik
+          
+          <input type="checkbox" name=chksport[2]> Full Live Band
+          
+          <input type="checkbox" name=chksport[3]> Bhajan(devotional song)</p>
+          
+          <input type="submit" value="Submit">
+
+          <br> <br> 
+
+
+
         </div>
 
       
