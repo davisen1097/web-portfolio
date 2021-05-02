@@ -3,10 +3,36 @@ header {
 }
 .background {
   background-color: #000000;
+
 }
 
+.topnav {
+  overflow: hidden;
+  background-color: rgb(251, 255, 0);
+  position: fixed;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(255, 0, 0);
+}
+
+
+
+
+
 .box {
-  border: 1px solid rgb(121, 66, 30);
+  border: 1px transparent rgb(121, 66, 30);
 }
 
 .logo1 {
@@ -18,7 +44,7 @@ header {
 }
 
 .logoname {
-  border: 1px solid rgb(172, 99, 99);
+  border: 1px transparent rgb(172, 99, 99);
   color: rgb(219, 189, 19);
   font-size: 1.836em;
   text-align: center;
