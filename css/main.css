@@ -28,6 +28,7 @@ header {
 
 .box {
   border: 1px transparent rgb(121, 66, 30);
+
 }
 
 .logo1 {
@@ -72,6 +73,7 @@ header {
   font-size: 0.35em;
   color: rgb(240, 159, 112);
   text-shadow: 5px 8px 5px rgb(255, 102, 0);
+
 }
 
 .tipik {
@@ -80,7 +82,9 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: max-content;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .descriptionbox {
