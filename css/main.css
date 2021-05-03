@@ -176,8 +176,6 @@ header {
   }
 }
 
-
-
 .col-1-3{
   flex-grow: 1;
   border-image: url("images/description.jpg");
@@ -185,14 +183,14 @@ header {
   border-style: groove;
   border-width: 25px;
   display: block;
+  height: 100%;
   margin: 0 auto;
 }
-
-.col-1-3 img{
+/* .col-1-3 img{
   width: 100%;
   height: auto;
-  max-width: 500px;
-}
+
+} */
 
 
 .col-2-3{
