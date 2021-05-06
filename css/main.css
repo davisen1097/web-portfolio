@@ -187,17 +187,17 @@ header {
   }
 }
 
-.col-1-3{
+
+ .col-1-3{
   flex-grow: 1;
   border-image: url("images/description.jpg");
   border-color: #faf600;
   border-style: groove;
   border-width: 25px;
   display: block;
-  height: 100%;
+  height: 80%;
   margin: 0 auto;
-}
-
+}   
 
 
 .col-2-3{
