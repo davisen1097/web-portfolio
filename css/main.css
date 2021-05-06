@@ -5,6 +5,18 @@ header {
   background-color: #000000;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+@media only screen and (min-width:1200 px) {
+  .container{
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+}
+
 .topnav {
   overflow: hidden;
   background-color: rgb(251, 255, 0);
@@ -170,7 +182,7 @@ header {
   flex-grow: 1;
 }
 
-@media only screen and (min-width:1000px) {
+@media only screen and (min-width:768px) {
   .row {
     flex-direction: row;
   }
