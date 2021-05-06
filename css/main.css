@@ -6,8 +6,6 @@ header {
   background-color: #000000;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 @media only screen and (min-width:1200 px) {
   .container{
@@ -16,10 +14,6 @@ header {
   }
 }
 
-=======
->>>>>>> parent of d8bb39c (FInal master website)
-=======
->>>>>>> parent of d8bb39c (FInal master website)
 .topnav {
   overflow: hidden;
   background-color: rgb(251, 255, 0);
@@ -50,6 +44,7 @@ header {
 .logo1 {
   width: 190px;
   height: 170px;
+  text-align: center;
   margin: 0 auto;
   padding-top: 15px;
   padding-bottom: 50px;
@@ -186,7 +181,7 @@ header {
   flex-grow: 1;
 }
 
-@media only screen and (min-width:1000px) {
+@media only screen and (min-width:768px) {
   .row {
     flex-direction: row;
   }
