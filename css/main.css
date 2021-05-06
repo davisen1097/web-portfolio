@@ -2,14 +2,11 @@ header {
   padding-top: 10px;
 }
 
-/* css code for background page colour */
 .background {
   background-color: #000000;
 }
 
 
-
-/* css code for responsive screen */
 @media only screen and (min-width:1200 px) {
   .container{
     width: 1200px;
@@ -34,7 +31,7 @@ header {
   font-size: 17px;
 }
 
-/* css code for hover effect when pointing cursor on navigation bar */
+
 .topnav a:hover {
   background-color: #ddd;
   color: rgb(255, 0, 0);
